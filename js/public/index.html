@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Suma de matrices</h1>
+
+    <form id="form">
+      <div class="matriz-input">
+        <h2>Matriz 1</h2>
+        <input type="number" id="m1-f" placeholder="Ingrese número de filas" />
+        <input
+          type="number"
+          id="m1-c"
+          placeholder="Ingrese número de columnas" />
+      </div>
+
+      <div class="matriz-input">
+        <h2>Matriz 2</h2>
+        <input type="number" id="m2-f" placeholder="Ingrese número de filas" />
+        <input
+          type="number"
+          id="m2-c"
+          placeholder="Ingrese el número de columnas" />
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="contenedor">
+      <div class="matriz-1">
+        <h2>Matriz 1</h2>
+      </div>
+      <div class="matriz-2">
+        <h2>Matriz 2</h2>
+      </div>
+    </div>
+
+    <div class="resultado">
+      <h2>Resultado de la suma</h2>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
